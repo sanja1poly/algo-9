@@ -1,0 +1,21 @@
+dhan_auto_trader/
+│
+├── config.py                  # FILE 1: Configuration & Constants
+├── dhan_client.py             # FILE 2: DhanHQ API Client Wrapper
+├── option_chain_fetcher.py    # FILE 3: Option Chain Data Fetcher
+├── market_feed.py             # FILE 4: Live Market Feed (WebSocket)
+├── greeks_calculator.py       # FILE 5: Option Greeks (Black-Scholes)
+├── confluence_scorer.py       # FILE 6: 🧠 Multi-Strategy Confluence Scoring
+├── trade_builder.py           # FILE 7: Trade Setup Builder
+├── virtual_portfolio.py       # FILE 8: Virtual Paper Trading (₹)
+├── auto_trader.py             # FILE 9: 🤖 Main Auto Trading Bot
+├── main.py                    # FILE 10: Entry Point / Launcher
+│
+├── data/
+│   └── portfolio.json         # Auto-generated portfolio data
+│
+├── logs/
+│   └── trades.log             # Trade logs
+│
+├── requirements.txt           # Dependencies
+└── .env                       # Credentials (NEVER commit!)
